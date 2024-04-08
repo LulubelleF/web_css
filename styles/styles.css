@@ -1,0 +1,339 @@
+/*General Styling*/
+
+.container-home {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: #d3bdb6;
+  height: 100vw;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: #d3bdb6;
+  height: 100vw;
+  margin: 0;
+  overflow: hidden;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/*Header*/
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 65px;
+  padding: 65px;
+  background-color: #f4ebe8;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: fantasy;
+  background-color: white;
+  width: 100%;
+  color: rgb(126, 76, 9);
+  padding: 20px;
+  gap: 10px;
+}
+
+.logo img:hover,
+.emboss-img:hover {
+  box-shadow: 0 0 25px #6c464f;
+}
+
+.container-logo img {
+  height: 110px;
+  width: 130px;
+  margin: 0;
+}
+
+.brand-text {
+  font-family: Arial, Helvetica, sans-serif, cursive;
+  font-size: 20px;
+  text-align: left;
+  margin-right: 500px;
+}
+
+.brand-text:hover {
+  color: silver;
+}
+
+/*Navigation*/
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+ul,
+.nav-links,
+.office-hours {
+  list-style: none;
+}
+
+.nav-links li {
+  font-family: fantasy;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(126, 76, 9);
+  font-size: 25px;
+}
+
+/*main*/
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.office-hours {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.main_cointainer1,
+.main_cointainer2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_container1 {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: 70px;
+}
+
+.main_container2 {
+  margin-top: 20px;
+}
+
+.image_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jewellerymain {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 150px;
+  text-align: center;
+  margin-left: -100px;
+}
+
+.jewellerymain img {
+  height: 50vh;
+  width: 100vw;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid rgb(126, 76, 9);
+  background-color: antiquewhite;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.jewellerymain img:hover {
+  box-shadow: 0 0 25px #6c464f;
+}
+
+.jewelleryimgcaption {
+  font-size: 8px;
+}
+
+.jewellerymain h2 {
+  font-family: "Times New Roman", Times, serif;
+  color: #615055;
+  font-style: italic;
+}
+
+.story_section {
+  flex: 1;
+  padding: 5px;
+  color: #615055;
+  font-family: "Times New Roman", Times, serif;
+  text-align: left;
+  align-self: center;
+  height: auto;
+  margin-top: 20%;
+  margin-bottom: 5px;
+  margin-right: 150px;
+}
+
+.product_section {
+  flex: 1;
+  color: #615055;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  height: auto;
+  margin-bottom: 30%;
+  padding: 10px;
+  margin-right: 100px;
+}
+
+.product_images {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.product_images img {
+  max-width: 30%;
+  height: auto;
+  border: 2px solid rgb(126, 76, 9);
+  padding: 10px;
+  background-color: antiquewhite;
+}
+
+.prodcaption,
+.infocaption,
+a {
+  font-size: 8px;
+}
+
+.contrainer-contactinfo {
+  flex: 1;
+  color: #615055;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: justify;
+  align-self: center;
+  height: auto;
+  padding: 10px;
+  margin-bottom: 100px;
+  list-style: none;
+}
+
+.contact-form {
+  flex: 1;
+
+  align-items: center;
+  margin-left: auto;
+  margin-right: 70px;
+  padding: 20px;
+  background-color: #b592a0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 100px;
+}
+
+.contact-form h2 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #615055;
+  font-weight: bold;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #615055;
+}
+
+.contact-form label {
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: #9c7178;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #010810;
+}
+
+.container-info {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.container-info img {
+  height: 50px;
+  width: 50px;
+}
+
+.watermark {
+  position: fixed;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.2;
+  z-index: -1;
+  width: 100%;
+}
+
+/*footer*/
+
+.footer {
+  position: fixed;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  color: rgb(128, 128, 128);
+  padding: 10px;
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+
+/*Social Media Links*/
+.fa {
+  padding: 10px;
+  font-size: 40px;
+  width: 15px;
+  text-decoration: none;
+  border-radius: 50%;
+  line-height: 40px;
+  margin-right: 10px;
+}
+
+.fa:hover {
+  background: #3b5998;
+}
+
+.fa-facebook,
+.fa-twitter {
+  background: rgb(126, 76, 9);
+  color: white;
+}
